@@ -148,7 +148,6 @@ body {
 }
 
 .about-div {
-  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -164,9 +163,24 @@ body {
   margin-top: 5px;
   font-size: 1.5em;
   width: 80%;
-  text-align: center;
   color: #c5f4e0;
   font-weight: 600;
+}
+
+.about > div {
+  width: 70%;
+  gap: 80px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-div > span {
+  text-align: left ;
+}
+
+.about > div img {
+  width: 400px;
 }
 
 .why {
@@ -470,5 +484,22 @@ body {
 
   .how-to-buy > span {
     text-align: center;
+  }
+
+  .about > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about > div img {
+    width: 300px;
+  }
+
+  .about-div span {
+    text-align: center !important;
+  }
+
+  .about-div {
+    align-items: center;
   }
 }

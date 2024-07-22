@@ -175,6 +175,10 @@ body {
   flex-direction: row;
 }
 
+.why {
+  flex-direction: column !important;
+}
+
 .about-div > span {
   text-align: left ;
 }

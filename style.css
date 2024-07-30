@@ -180,7 +180,7 @@ body {
 }
 
 .about-div > span {
-  text-align: left ;
+  text-align: left;
 }
 
 .about > div img {
@@ -294,6 +294,12 @@ body {
   display: flex;
   justify-content: center;
   font-weight: 600;
+}
+
+.ca span {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .grids {

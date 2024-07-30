@@ -448,6 +448,7 @@ body {
   }
 
   .view-chart {
+    margin: 50px auto;
     flex-direction: column;
   }
 

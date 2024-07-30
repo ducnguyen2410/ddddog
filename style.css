@@ -441,6 +441,14 @@ body {
     text-align: center;
   }
 
+  .view-chart {
+    flex-direction: column;
+  }
+
+  .view-chart a {
+    text-align: center;
+  }
+
   .about-text {
     text-align: center;
   }

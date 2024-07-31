@@ -59,7 +59,7 @@ body {
 }
 
 
-.header > img {
+.header > img:nth-child(2) {
   width: 300px;
   border-radius: 30px;
   animation: myAnim 2s ease 0s infinite normal forwards;
@@ -328,6 +328,13 @@ body {
   font-weight: 700;
 }
 
+.img-absolute {
+  position: absolute;
+  width: 120px;
+  bottom: 40vh;
+  right: 38%;
+}
+
 .how-to-buy {
   background-color: #040926;
   display: flex;
@@ -441,6 +448,11 @@ body {
 
   .header-intro {
     width: 90%;
+  }
+
+  .img-absolute {
+    bottom: -60vh;
+    right: 20%;
   }
 
   .header-intro span {

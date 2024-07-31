@@ -41,6 +41,45 @@ body {
   color: black;
 }
 
+.holder {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+  background-color: #3a435e;
+}
+
+.holder > span {
+  color: white;
+  font-size: 6em;
+  margin-bottom: 50px;
+}
+
+.holder > div {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.holder > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.holder > div > div > a {
+  font-weight: 600;
+  color: white;
+  font-size: 2em;
+}
+
+.holder > div > div > img {
+  border-radius: 50%;
+}
+
 .navbar-points a:hover {
   color: white;
 }
@@ -58,8 +97,11 @@ body {
   padding: 100px 0;
 }
 
+.header > div:nth-child(2) {
+  position: relative;
+}
 
-.header > img:nth-child(2) {
+.header > div:nth-child(2) img:nth-child(1) {
   width: 300px;
   border-radius: 30px;
   animation: myAnim 2s ease 0s infinite normal forwards;
@@ -330,9 +372,9 @@ body {
 
 .img-absolute {
   position: absolute;
-  width: 120px;
-  bottom: 40vh;
-  right: 38%;
+  width: 200px;
+  top: 30%;
+  left: -200px;
 }
 
 .how-to-buy {
@@ -441,6 +483,20 @@ body {
     flex-direction: column;
   }
 
+  .holder > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .holder > span {
+    font-size: 2em;
+  }
+
+  .holder > div > div > img {
+    width: 80%;
+  }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -451,8 +507,10 @@ body {
   }
 
   .img-absolute {
-    bottom: -60vh;
-    right: 20%;
+    top: -30%;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .header-intro span {

@@ -163,7 +163,7 @@ body {
   padding: 20px 40px;
   justify-content: center;
   display: flex;
-  background-color: #736F72;
+  background-color: #736f72;
   flex-direction: row;
   gap: 24px;
   border-radius: 20px;
@@ -469,6 +469,27 @@ body {
 
 .socials a {
   font-weight: 600;
+}
+
+.fyi {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fyi > span {
+  letter-spacing: 2px;
+  line-height: 120%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.fyi > a {
+  color: blue;
+  font-weight: bold;
+
 }
 
 @media only screen and (max-device-width: 700px) {

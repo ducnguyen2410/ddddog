@@ -478,6 +478,22 @@ body {
     gap: 50px;
   }
 
+  .about > span:nth-child(1) {
+    font-size: 2em;
+  }
+
+  .why > span:nth-child(1) {
+    font-size: 2em;
+  }
+
+  .join-us > span:nth-child(1) {
+    font-size: 2em;
+  }
+
+  .join-us > span:nth-child(2) {
+    text-align: center;
+  }
+
   .navbar-points {
     display: flex;
     flex-direction: column;

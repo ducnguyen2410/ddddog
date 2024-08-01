@@ -207,6 +207,7 @@ body {
 
 .about-div span:nth-child(2) {
   margin-top: 5px;
+  margin-bottom: 30px;
   font-size: 1.5em;
   width: 80%;
   color: #c5f4e0;
@@ -492,6 +493,8 @@ body {
 
 }
 
+
+
 @media only screen and (max-device-width: 700px) {
   .navbar {
     display: flex;
@@ -529,6 +532,7 @@ body {
   .holder > span {
     font-size: 2em;
   }
+
 
   .holder > div > div > img {
     width: 80%;

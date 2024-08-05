@@ -512,6 +512,10 @@ body {
     gap: 50px;
   }
 
+  .join-us > div {
+    flex-direction: column;
+  }
+
   .about-div div {
     flex-direction: column;
   }
